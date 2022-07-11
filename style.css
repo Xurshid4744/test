@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    /* background-color: red; */
+}
+.container .top {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.container .bottom {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.container .bottom button {
+    width: 45%;
+    padding: 10px;
+}
+#score {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 32px;
+}
+#gameOver {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 32px;
+}
+.container__two {
+    max-width: 500px;
+    margin: auto;
+    padding: 60px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.container__two .start__button {
+    padding: 10px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+.container__two .start__button:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.container__two .addTest__button {
+    padding: 10px;
+    width: 300px;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+.container__two .addTest__button:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.container__three {
+    max-width: 500px;
+    margin: auto;
+    background-color: rgba(184, 180, 180, 0.624);
+}
+.container__three #form {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.container__three #form #test__a {
+    font-size: 30px;
+}
+.container__three #form #test__b {
+    font-size: 30px;
+}
+.container__three #form #test__c {
+    font-size: 30px;
+}
+.container__three #form #test__d {
+    font-size: 30px;
+}
+.container__three #form #answer {
+    font-size: 30px;
+}
+
+.container__three #form #test__submit {
+    font-size: 30px;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.container__four {
+    max-width: 1280px;
+    margin: auto;
+    background-color: #ffff;
+    margin-top: 200px;
+}
+.container__four table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.container__four table td,
+th {
+    border: 1px solid #000;
+    text-align: left;
+    padding: 8px;
+}
+.container__four table td .fa-pen {
+    cursor: pointer;
+}
+.container__four table td .fa-trash-alt {
+    cursor: pointer;
+}
+.container__four table tr:nth-child(even) {
+    background-color: #dddddd;
+}
